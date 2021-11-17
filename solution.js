@@ -134,7 +134,7 @@ d3.csv("coffee-house-chains.csv", d3.autoType).then(_data => {
   
   update(data, type, reverse);
   
-});
+})
 
 
 d3.select('#group-by').on('change', (event)=>{
